@@ -18,15 +18,34 @@
     <TextView
         android:id="@+id/textTitle"
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="15dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/archivo_black"
         android:gravity="center"
-        android:text="BMW  не здає нишу та має статус Автомобіль Люкс Классу "
+        android:text="BMW does not surrender the niche and has the status of a luxury car "
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imNews" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="4dp"
+        android:text="LIKE"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle"
+        tools:layout_editor_absoluteX="325dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_editor_absoluteX="230dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
