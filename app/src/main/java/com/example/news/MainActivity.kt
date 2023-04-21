@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val newsList = listOf(
             TheNews(
                 R.drawable.bmw,
-                R.string.BMWNewsTitle.toString(),
+                "BMW does not surrender the niche and has the status of a luxury car ",
                 "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
             0),
             TheNews(

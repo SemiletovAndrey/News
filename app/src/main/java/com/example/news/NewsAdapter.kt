@@ -3,7 +3,6 @@ package com.example.news
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -15,8 +14,6 @@ class NewsAdapter(private val newsList: List<TheNews>) :
         private val imageView: ImageView = itemView.findViewById(R.id.imNews)
         private val titleTextView: TextView = itemView.findViewById(R.id.textTitle)
         //private val textTextView: TextView = itemView.findViewById(R.id.textTextView)
-        val newsLikes: TextView = itemView.findViewById(R.id.textLikes)
-        val likeButton: ImageButton = itemView.findViewById(R.id.imLikes)
 
         fun bind(news: TheNews) {
             imageView.setImageResource(news.imageRes)
