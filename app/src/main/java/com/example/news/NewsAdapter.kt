@@ -11,15 +11,39 @@ class NewsAdapter(private val newsList: List<TheNews>) :
     RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
 
     inner class NewsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val imageView: ImageView = itemView.findViewById(R.id.imNews)
-        private val titleTextView: TextView = itemView.findViewById(R.id.textTitle)
+        val imageView: ImageView = itemView.findViewById(R.id.imNews)
+        val titleTextView: TextView = itemView.findViewById(R.id.textTitle)
+        val likeButton: ImageView = itemView.findViewById(R.id.likeButton)
         //private val textTextView: TextView = itemView.findViewById(R.id.textTextView)
+        val count_like: TextView = itemView.findViewById(R.id.textLikes)
+        var isLiked: Boolean = false
 
         fun bind(news: TheNews) {
             imageView.setImageResource(news.imageRes)
             titleTextView.text = news.title
-            //textTextView.text = news.text
+            count_like.text = news.count_like.toString()
+            updateLikeButton()
+            likeButton.setOnClickListener {
+                isLiked = !isLiked // Toggle the like state
+                updateLikeButton() // Update the like button to reflect the new state
+                updateLikeCount()
+            }
         }
+        private fun updateLikeButton() {
+            if (isLiked) {
+                likeButton.setImageResource(R.drawable.likes) // Change to liked icon
+            } else {
+                likeButton.setImageResource(R.drawable.like) // Change to unliked icon
+            }
+        }
+
+        private fun updateLikeCount() {
+            val currentLikes = count_like.text.toString().toInt()
+            val newLikes = if (isLiked) currentLikes + 1 else currentLikes - 1 // Add or remove a like based on the current state
+            count_like.text = newLikes.toString()
+        }
+
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsViewHolder {

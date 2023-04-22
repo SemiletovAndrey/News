@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imNews" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/likeButton"
         android:layout_width="47dp"
         android:layout_height="47dp"
         android:layout_marginStart="288dp"
@@ -44,7 +44,7 @@
         app:srcCompat="@drawable/like" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textLikes"
         android:layout_width="47dp"
         android:layout_height="47dp"
         android:layout_marginStart="5dp"
@@ -52,7 +52,7 @@
         android:text="0"
         android:textColor="@color/black"
         android:textSize="34sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintStart_toEndOf="@+id/likeButton"
+        app:layout_constraintTop_toTopOf="@+id/likeButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
