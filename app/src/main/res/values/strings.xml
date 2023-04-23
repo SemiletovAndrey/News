@@ -1,8 +1,21 @@
 <resources>
     <string name="app_name">News</string>
     <string name="newsToday">News Today</string>
-
+    <string name="zero">0</string>
 
     <string name="BMWNewsTitle">BMW does not surrender the niche and has the status of a luxury car </string>
-    <string name="BMWNewsDescription">BMW does not surrender the niche and has the status of a luxury car</string>
+    <string name="BMWNewsDescription">BMW launches the new X8 crossover, which is a sleek and spacious vehicle with advanced technology and a powerful engine.
+        The X8 is equipped with the latest safety features such as automatic emergency braking and a pedestrian warning system.
+        It also offers a wide range of engine choices, including a hybrid version and a powerful V8 for those looking for more speed and power.
+        The X8 also has an enhanced infotainment system that allows drivers and passengers to stay connected and entertained while driving.
+        The new crossover from BMW is already available to order and the first deliveries will start in the coming months.</string>
+
+    <string name="EmotionsTitle">Fun prolongs life. Proven by scientists</string>
+    <string name="EmotionsDescription">A team of scientists from various universities around the world conducted an extensive study
+        which confirmed that laughter does indeed prolong life. The study found that laughter increases levels of the hormone gappy (the happiness hormone)
+        in the human body, which in turn can improve cardiovascular and immune system function.
+The study also found that people who laugh frequently have higher vitality and cope better with stress.
+        Scientists recommend incorporating humour and laughter into your life, especially during difficult and stressful times, to improve your physical and mental health.
+This discovery has generated a lot of interest from scientists and media from around the world,
+        and many have started discussing the importance of laughter and humour in our lives. It has also sparked the creation of new programmes and projects to enable people to laugh and enjoy life.</string>
 </resources>

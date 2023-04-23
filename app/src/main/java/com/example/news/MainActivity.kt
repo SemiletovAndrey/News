@@ -14,12 +14,12 @@ class MainActivity : AppCompatActivity() {
             TheNews(
                 R.drawable.bmw,
                 getString(R.string.BMWNewsTitle),
-                "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
+                getString(R.string.BMWNewsDescription),
             0),
             TheNews(
                 R.drawable.emot3,
-                "Fun prolongs life. Proven by scientists",
-                "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
+                getString(R.string.EmotionsTitle),
+                getString(R.string.EmotionsDescription),
             0),
             TheNews(
                 R.drawable.topfilms,
