@@ -18,4 +18,34 @@ The study also found that people who laugh frequently have higher vitality and c
         Scientists recommend incorporating humour and laughter into your life, especially during difficult and stressful times, to improve your physical and mental health.
 This discovery has generated a lot of interest from scientists and media from around the world,
         and many have started discussing the importance of laughter and humour in our lives. It has also sparked the creation of new programmes and projects to enable people to laugh and enjoy life.</string>
+
+    <string name="TopFilmsTitle">Top 10 films in the world</string>
+    <string name="TopFilmsDescription">In light of recent developments in cinema, experts and critics have selected a list of the top 10 films in the history of the film industry. This list includes classic and contemporary films that have had a huge impact on the industry and society as a whole.
+In first place is The Godfather (1972) by Francis Ford Coppola. In second place was James Cameron\'s 1997 blockbuster Titanic, followed in third place by Stanley Kubrick\'s 1968 sci-fi masterpiece 2001: A Space Odyssey.
+The list also includes The Truman Show (1998) by Peter Weir, Pulp Fiction (1994) by Quentin Tarantino, The Lord of the Rings: Return of the King (2003) by Peter Jackson, Citizen Kane (1941) by Orson Welles, Seven (1995) by David Fincher, Star Wars: Episode IV - A New Hope (1977) by George Lucas and Escape from Shawshank (1994) by Frank Darabont.
+These films stand out not only for their outstanding quality work, but also for their significant impact on culture and society. They remain beloved and respected films around the world, and will continue to inspire and amaze audiences for many years to come.</string>
+
+    <string name="PandaTitle">Big Panda</string>
+    <string name="PandaDescription">A new big panda was recently born at the zoo, causing delight and excitement among visitors and staff. The baby was named Mei Lin, which means \'beautiful lotus\' in Chinese.
+Mei Lin is the first offspring of a female panda that was brought to the zoo from China last year. According to veterinarians, the baby was born healthy and has already started to actively explore her surroundings.
+Great pandas are an icon and national symbol of China, and their numbers in the wild continue to decline due to habitat loss and other factors. The birth of Mei Ling was a great success for the conservation of this unique species and offers hope for the future of the panda population.
+The zoo promises to organise special displays and events for visitors to see the baby girl and enjoy this wonderful moment in her life.</string>
+
+    <string name="RiotTitle">The new person in League Legends</string>
+    <string name="RiotDescription">The developers of the popular online game League of Legends have announced a new hero to be added to the game in the near future. The new hero is called Raven and is a mage with unique abilities.
+One of the main features of Raven is the ability to teleport over short distances. This allows her to move quickly across the battlefield and avoid enemy attacks. Additionally, Raven has the ability to summon a flock of ravens, which attack enemies and weaken their defenses.
+The game creators also emphasize that Raven is very fast and mobile, making her the perfect hero for gamers who prefer fast and aggressive style of play.
+Raven is scheduled for an official release next week, and the developers promise that she will be one of the most unique and exciting heroes in the League of Legends game.</string>
+    
+    <string name="TeslaTitle">The new Solar Tesla Car</string>
+    <string name="TeslaDescription">Tesla has announced the launch of a new car that will run on solar power. The new electric car will be called Tesla SolarCar and will be equipped with an innovative solar panel that allows charging from the sun\'s rays while driving.
+The solar panel on the roof of the car is covered with a special material that absorbs the sun\'s rays and converts them into electrical energy. This significantly increases the vehicle\'s mileage on a single charge, as well as reducing the load on the battery.
+In addition, the Tesla SolarCar will be equipped with a unique navigation system that allows route selection based on weather conditions and sunlight intensity. This maximises the potential of solar energy and reduces electricity costs.
+The new Tesla SolarCar will be available to order in the coming months, and the company expects strong demand from customers who are interested in clean technology and sustainability.</string>
+
+    <string name="RedPlanetBaseTitle">Nasa decides to set up a new base on Mars</string>
+    <string name="RedPlanetBaseDescription">NASA has announced plans to establish a new Martian base on the surface of the Red Planet. The base will be called Red Planet Base and will be used to explore Mars as well as prepare for possible future missions to the planet.
+The base will be equipped with state-of-the-art technology, including autonomous robots for exploration, equipment for growing plants and creating a closed ecological cycle, as well as satellites to ensure communication with Earth and study the atmosphere of Mars.
+The primary mission of the Red Planet Base is to study and search for traces of life on Mars. Scientists hope that the base will help them understand whether life was once possible on this planet and what conditions are necessary for its existence.
+It is not yet known when construction of the base will begin, but NASA has already begun preparing the necessary equipment and personnel. The team of scientists and engineers who will work at the base will undergo special training and drills for working in the extreme environment on Mars. </string>
 </resources>

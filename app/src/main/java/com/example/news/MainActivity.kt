@@ -23,34 +23,64 @@ class MainActivity : AppCompatActivity() {
             0),
             TheNews(
                 R.drawable.topfilms,
-                "Новый фильм Мстители: Финал",
-                "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
+                getString(R.string.TopFilmsTitle),
+                getString(R.string.TopFilmsDescription),
             0),
             TheNews(
-                R.drawable.bmw,
-                "Новый фильм Мстители: Финал",
-                "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
+                R.drawable.panda,
+                getString(R.string.PandaTitle),
+                getString(R.string.PandaDescription),
             0),
             TheNews(
-                R.drawable.bmw,
-                "Новый фильм Мстители: Финал",
-                "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
+                R.drawable.riot,
+                getString(R.string.RiotTitle),
+                getString(R.string.RiotDescription),
             0),
             TheNews(
-                R.drawable.bmw,
-                "Новый фильм Мстители: Финал",
-                "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
+                R.drawable.teslacar,
+                getString(R.string.TeslaTitle),
+                getString(R.string.TeslaDescription),
             0),
             TheNews(
+                R.drawable.redplanet,
+                getString(R.string.TeslaTitle),
+                 getString(R.string.TeslaDescription),
+            0),TheNews(
                 R.drawable.bmw,
-                "Новый фильм Мстители: Финал",
-                "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
-            0),
+                getString(R.string.BMWNewsTitle),
+                getString(R.string.BMWNewsDescription),
+                0),
             TheNews(
-                R.drawable.bmw,
-                "Новый фильм Мстители: Финал",
-                "После долгого ожидания, финальная часть эпической саги о Мстителях наконец-то выходит на экраны кинотеатров. Фильм обещает быть одним из самых зрелищных и захватывающих фильмов года.",
-            0)
+                R.drawable.emot3,
+                getString(R.string.EmotionsTitle),
+                getString(R.string.EmotionsDescription),
+                0),
+            TheNews(
+                R.drawable.topfilms,
+                getString(R.string.TopFilmsTitle),
+                getString(R.string.TopFilmsDescription),
+                0),
+            TheNews(
+                R.drawable.panda,
+                getString(R.string.PandaTitle),
+                getString(R.string.PandaDescription),
+                0),
+            TheNews(
+                R.drawable.riot,
+                getString(R.string.RiotTitle),
+                getString(R.string.RiotDescription),
+                0),
+            TheNews(
+                R.drawable.teslacar,
+                getString(R.string.TeslaTitle),
+                getString(R.string.TeslaDescription),
+                0),
+            TheNews(
+                R.drawable.redplanet,
+                getString(R.string.TeslaTitle),
+                getString(R.string.TeslaDescription),
+                0)
+
         )
         val newsRecyclerView: RecyclerView = findViewById(R.id.recyclerView)
         newsRecyclerView.adapter = NewsAdapter(newsList)
